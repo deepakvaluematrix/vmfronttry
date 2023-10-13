@@ -1,0 +1,7 @@
+version: '3.1'
+services:
+   vmfront:
+     image: valuematrix/vm-frontend:latest
+     container_name: vmfront
+     ports:
+       - "8080:9200"

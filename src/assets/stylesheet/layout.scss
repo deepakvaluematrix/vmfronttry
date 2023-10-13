@@ -1,0 +1,237 @@
+
+.panel{
+   width:86%;
+    margin-top:'70px';
+   background-color:"#ffffff";
+   margin-right: 0 !important;
+   margin-left: auto !important;
+   justify-items: end;
+   @media only screen and (max-width: 1336px){
+
+  width:100% !important;
+
+    }
+
+}
+.panel2{
+//    width:84%;
+    margin-top:'70px';
+   background-color:"#ffffff";
+   margin-right: 0 !important;
+   margin-left: auto !important;
+   justify-items: end;
+   @media only screen and (max-width: 1336px){
+
+  width:100% !important;
+
+    }
+
+}
+
+
+.sidebarComponent{
+    width: 14% !important;
+    .menu{
+        display: none;
+      
+    }
+   
+         
+
+}
+@media only screen and (max-width: 1336px){
+    .sidebarComponent{
+    width:0 !important;
+    .menu{
+        display: block !important;
+        z-index: 200 !important;
+    }
+}
+}
+
+.offstar {
+    color: #c4c4c4;
+}
+
+.onstar {
+    color: #228276;
+}
+
+.navbar{
+    z-index:10 !important;
+}
+
+.react-datepicker-wrapper .react-datepicker__input-container {
+    display: none !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+    width: 3.7rem !important;
+}
+
+.react-datepicker-wrapper .react-datepicker__month-container {
+    width: 100% !important;
+}
+
+.react-datepicker {
+    width: 100% !important;
+}
+
+.react-datepicker-popper {
+    position: unset !important;
+    inset:unset !important;
+    transform: none !important;
+}
+
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::after {
+    content: unset !important;
+}
+
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::before {
+    border-bottom-color: white !important;
+}
+
+.react-datepicker__header {
+    border-bottom: none !important;
+    background-color: white !important;
+}
+
+.react-datepicker__day {
+    outline: none !important;
+    padding: 1px !important;
+    width: 1.9rem !important;
+    height: 1.6rem !important;
+    margin-left: 14px !important;
+    margin-right: 14px !important;
+
+}
+
+.react-datepicker__day-name {
+    width: 1.9rem !important;
+    margin-left: 14px !important;
+    margin-right: 14px !important;
+}
+
+.react-datepicker-wrapper {
+    width: unset !important;
+}
+
+.react-datepicker__day:hover {
+    border-radius: 1.5rem !important;
+}
+
+.react-datepicker__day-names {
+    padding-top: 1px !important;    
+}
+
+.react-datepicker__day--selected {
+    background: rgba(34, 130, 118, 0.1) !important;
+    color: #228276 !important;
+    border-radius: 1.5rem !important;
+}
+
+.checkmark {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 2px #D6615A;
+    display: block;
+    stroke-width: 2;
+    stroke: #D6615A;
+    stroke-miterlimit: 10;
+    stroke-dashoffset: 0;
+    margin: 80% auto;
+}
+
+.success-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: block;
+    margin: 80% auto;
+}
+  
+.containerd {
+    display: flex;
+    justify-content: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+  
+.textDiv {
+    padding-left: 10px;
+    padding-top: 16px;
+    font-family: 'Gill Sans', sans-serif;
+  }
+
+.swal2-styled.swal2-confirm {
+    background-color: #228276 !important;
+}
+
+.swal2-styled.swal2-cancel {
+    color: #D6615A !important;
+    background-color: unset !important;
+}
+
+.swal2-styled.swal2-cancel:hover  {
+    color: #D6615A !important;
+    background-color: white !important;
+    outline: none !important;
+}
+
+.swal2-title {
+    border-bottom: 1px ridge !important; 
+    padding-bottom: 20px !important;
+    font-family: 'SF Pro Display' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    text-align: left !important;
+}
+
+.swal2-html-container {
+    border-bottom: 1px ridge !important; 
+    padding-bottom: 20px !important;
+    margin: unset !important;
+    padding-top: 15px !important;
+}
+
+.swal2-actions {
+    margin: unset !important;
+    align-items: unset !important;
+    justify-content: right !important;
+    padding-right: 15px !important;
+    padding-top: 15px !important;
+}
+
+.swal2-container.swal2-center>.swal2-popup {
+    border-radius: 12px !important;
+}
+
+.swal2-confirm.swal2-styled{
+    width: 100px !important;
+    border-radius: 6px !important;
+    outline: none !important;
+}
+
+.swal2-close {
+    color: black !important;
+    font-size: 2em !important;
+    padding-top: 15px !important;
+    outline: none !important;
+}
+
+.swal2-close:active{
+    outline: 0 !important;
+    border: none !important;
+}
+
+.swal2-styled.swal2-confirm:hover {
+    background-image: none !important;
+    outline: #D6615A !important;
+    border: #D6615A !important;
+}
+
+.textDiv {
+    text-align: left !important;
+}
