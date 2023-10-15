@@ -13,7 +13,7 @@ jobs:
           node-version: 18 # Use the version you need
           
       - name: Install node
-        run: npm install
+        run: npm install --force
         
       - name: Install Snyk CLI
         run: npm install -g snyk
