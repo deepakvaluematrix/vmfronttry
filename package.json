@@ -5,7 +5,7 @@
   "dependencies": {
     "@aws-sdk/client-transcribe": "^3.213.0",
     "@aws-sdk/client-transcribe-streaming": "^3.213.0",
-    "@dytesdk/react-ui-kit": "1.52.2",
+    "@dytesdk/react-ui-kit": "1.55.0",
     "@dytesdk/react-web-core": "1.32.0",
     "@dytesdk/ui-kit": "1.52.2",
     "@dytesdk/web-core": "1.15.0",
